@@ -1,0 +1,434 @@
+
+/*					INDEX				*/
+
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+
+header, footer, section, nav{
+	display:block;
+}
+
+body{
+	width:100%;
+	background-color:white;
+
+	
+}
+
+
+.toggle{
+	width:100%;
+	padding:10px 20px;
+	background-color:#00000a;
+	opacity:1;
+	float:right;
+	text-align:right;
+	font-size:25px;
+	cursor:pointer;
+	display:none;
+	box-sizing:border-box;
+}
+
+#fa_bar{
+	color:white;
+}
+
+header{
+	width:100%;
+	height:auto;
+}
+
+nav{
+	width:100%;
+	background-color:#000019;
+	display:block;
+	text-align:right;
+	color:white;
+	overflow:hidden;
+	position:fixed;
+	top:0%;
+	opacity:0.9;
+	z-index:100;
+}
+#logo{
+	width:30%;
+	float:left;
+	font-size:30px;
+	padding-top:5px;
+}
+#nav ul{
+	float:left;
+	text-align:right;
+	width:60%;
+}
+
+#nav ul li{
+	display:inline-block;
+	color:white;
+	width:150px;
+	padding: 25px 0px;
+	text-align:center;
+}
+
+#nav ul li:hover{
+	background-color:black;
+}
+
+#nav ul li a{
+	color:white;
+	text-decoration:none;
+	font-size:18px;
+	font-weight:bold;
+}
+
+#facebook_icon, #twitter_icon{
+	width:35px;
+	padding-top:18px;
+	padding-right:10px;
+}
+
+#pagina_index, #pagina_servicii, #pagina_contact{
+	margin-top:130px;
+}
+
+#pagina_index{
+	padding:0px 50px;
+}
+#deblocari_usi{
+	width:100%;
+	text-align:center;
+	display:flex;
+	justify-content:space-between;
+}
+
+#deblocari{
+flex-basis:70%;
+}
+
+#deblocari img{
+	width:100%;
+	height:300px;
+}
+
+#experienta{
+	background-image:url(imagini/bg1.png);
+	height:300px;
+	width:350px;
+	background-size:cover;
+	border:5px solid #162252;
+	box-sizing:border-box;
+	margin-left:20px;
+	background-color:#00004c;
+	padding:15px 5px;
+	font-size:14px;
+}
+
+#experienta p{
+	width:55%;
+	font-weight:bold;
+	color:white;
+}
+
+#telefon_index{
+	padding-top:80px;
+	font-size:22px;
+}
+
+#casute_servicii{
+	width:100%;
+	margin-top:30px;
+	display:flex;
+	justify-content:space-between;
+	
+	
+}
+
+#casute_servicii>div{
+	border:3px solid #000019;
+	width:370px;
+	
+}
+.casute_servicii1{
+	text-align:center;
+	width:370px;
+
+}
+
+.casute_servicii1>p{
+	background-color:#000019;
+	color:white;
+	padding:15px 0px;
+	font-weight:bold;
+	font-size:16px;
+}
+
+.casute_servicii2{
+	display:flex;
+}
+
+.casute_servicii2>div{
+	height:330px;
+	padding:10px;
+	box-sizing:border-box;
+	font-size:15px;
+}
+
+.casute_servicii2 #lacatus_profesionist2, .casute_servicii2 #preturi_rezonabile2, .casute_servicii2 #servicii_garantate2{
+	background-color:#e5e5ff;
+}
+
+.servicii_icon{
+	background-color:#000066;
+	
+}
+.servicii_icon img{
+	width:70px;
+	padding-top:80%;
+	
+}
+
+
+
+#index_despre{
+	display:flex;
+	margin:80px 0px;
+	justify-content:space-between;
+	font-size:16px;
+}
+
+#index_despre1 {
+	flex-basis:60%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	color:#000033;
+}
+
+#index_despre1 div{
+	flex-basis:40%;
+	
+}
+
+#index_despre1 div p{
+	border-left:5px solid #000033;
+	padding:15px 10px;
+	background-color:#ccccff;
+}
+
+#imagine_despre img{
+	width:300px;
+}
+
+/*			servicii			*/
+#pagina_servicii{
+	margin-top:150px;
+	box-sizing:border-box;
+	margin-bottom:50px;
+	padding:0px 50px;
+}
+
+#servicii{
+	display:flex;
+	box-sizing:border-box;
+	text-align:center;
+	
+	
+}
+
+#servicii div{
+	flex-basis:33.33%;
+	box-sizing:border-box;
+	text-align:center;
+	
+}
+
+#servicii_cerc{
+	display:flex;
+	flex-wrap:wrap;
+	box-sizing:border-box;
+	text-align:center;
+	height:300px;
+	
+}
+#servicii_cerc div{
+	flex-basis:100%;
+}
+#deblocare_usa{
+	margin-top:40px;
+	width:280px;
+}
+
+#servicii_cerc .servicii_img{
+	width:140px;
+}
+
+#paragraf1, #paragraf3{
+	background-color:#ccccff;
+	padding:10px;
+}
+#paragraf2, #paragraf4{
+	background-color:#e5e5ff;
+	padding:10px;
+}
+
+#servicii_continut{
+	color:#000033;
+	text-align:Center;
+}
+#servicii_continut h2{
+	padding-bottom:20px;
+	font-size:20px;
+
+}
+#servicii_continut h3{
+	padding-bottom:10px;
+}
+#servicii_oferite{
+	text-align:left;
+	margin-left:70px;
+}
+#servicii_servicii h3{
+	padding:15px 0px;
+	font-size:20px;
+	background-color:#000033;
+	color:white;
+	margin-left:70px;
+	margin-bottom:15px;
+}
+
+#servicii_oferite p{
+	background-color:#ccccff;
+	border-left:2px solid black;
+	margin-bottom:8px;
+	padding:6px 0px 6px 15px;
+	text-align:left;
+	font-size:13px;
+	font-weight:bold;
+	color:#000033;
+}
+
+#text_servicii{
+	border:5px solid #000019;
+	margin:30px 0px;
+	padding:20px;
+	box-sizing:border-box;
+	background-color:#000033;
+	display:flex;
+}
+
+#text_servicii p{
+	flex-basis::60%;
+	float:left;
+	font-size:16px;
+	text-align:justify;
+	color:#b2b2ff;
+}
+#text_servicii img{
+	width:260px;
+	height:200px;
+	margin-left:12px;
+}
+
+/*			CONTACT			*/
+#pagina_contact{
+	padding:0px 50px;
+	box-sizing:border-box;
+	margin-bottom:30px;
+	text-align:center;
+}
+#contact_pagina{
+	width:100%;
+	display:flex;
+}
+
+#program{
+	flex-basis:100%;
+	background-color:#000019;
+	display:flex;
+	color:#b2b2ff;
+	padding:30px;
+	box-sizing:border-box;
+	background-image:url(imagini/chei.jpg);
+	background-size:cover;
+	
+}
+#program1{
+	flex-basis:65%;
+	text-align:center;
+	box-sizing:border-box;
+	background-color:#000019;
+	opacity:0.8;
+	padding:30px 45px;
+}
+#program1 h2{
+	padding-bottom:15px;
+}
+.deplasari{
+	color:white;
+}
+
+#program2{
+	padding:0px 30px;
+}
+
+#program2 p{
+	background-color:#000019;
+	opacity:0.7;
+	margin-bottom:10px;
+	padding:10px 10px;
+}
+#program2 h3{
+	padding:20px 10px;
+	background-color:#000019;
+	opacity:0.8;
+}
+
+#program2 h2{
+	font-size:24px;
+	margin-top:20px;
+	padding:20px 10px;
+	background-color:#000019;
+	opacity:0.8;
+}
+
+#imagine_contact{
+	height:320px;
+	background-image:url(imagini/lacat.jpg);
+	background-size:cover;
+	margin-bottom:40px;
+}
+#box_contact{
+	width:100%;
+	height:320px;
+	background-color:#000033;
+	opacity:0.8;
+	color:white;
+}
+
+#box_contact h1{
+	padding-top:140px;
+	font-size:58px;
+}
+
+#footer{
+	color:white;
+	background-color:#000019;
+	text-align:center;
+	padding:15px 0px;
+
+}
+
+#footer a{
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#footer a:hover{
+	color:red;
+
+}
+

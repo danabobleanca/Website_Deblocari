@@ -1,0 +1,2353 @@
+@media screen  and (max-width: 375px) {
+	
+.toggle{
+	display:block;
+	width:100%;
+	float:left;
+
+}
+
+#fa_bar{
+	width:30px;
+}
+
+#nav{
+	margin:0px;
+	padding:0px;
+}
+
+#nav ul li{
+	width:100%;
+	display:block;
+	text-align:center;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	height:0px;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+}
+
+#header nav ul li.open{
+	height:auto;
+}
+
+#nav ul li a{
+	width:100%;
+	display:block;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-top:3px solid black;
+	box-sizing:border-box;
+	font-size:19px;
+	margin:0px;
+	padding:20px 0px;
+}
+
+header{
+	width:100%;
+	height:auto;
+}
+
+#logo{
+	width:70%;
+	float:left;
+	font-size:30px;
+	padding-top:5px;
+	text-align:center;
+}
+#logo img{
+	width:215px;
+}
+#nav ul{
+	width:100%;
+}
+
+nav ul li{
+	display:inline-block;
+	width:100%;
+}
+
+#facebook_icon, #twitter_icon{
+	width:22px;
+	padding-top:10px;
+	padding-right:10px;
+}
+
+#pagina_index, #pagina_servicii, #pagina_contact{
+	margin-top:120px;
+}
+
+#pagina_index{
+	padding:0px 20px;
+	
+}
+#deblocari_usi{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#deblocari{
+	flex:1;
+	flex-basis:100%;
+	height:130px;
+}
+
+#deblocari img{
+	height:130px;
+}
+
+
+#experienta{
+	flex:1;
+	flex-basis:100%;
+	height:220px;
+	margin-left:0px;
+	padding:15px 0px;
+	font-size:10px;
+	margin-top:10px;
+	
+}
+
+#experienta p{
+	width:55%;
+}
+
+#telefon_index{
+	padding-top:60px;
+	font-size:18px;
+}
+
+
+#casute_servicii{
+	width:100%;
+	margin-top:30px;
+	display:flex;
+	flex:1;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	
+	
+}
+
+#casute_servicii>div{
+	flex-basis:100%;
+	border:3px solid #000019;
+	margin-bottom:20px;
+	
+}
+.casute_servicii1{
+	text-align:center;
+	min-width:200px;
+
+}
+
+
+.casute_servicii2{
+	display:flex;
+}
+
+.casute_servicii2>div{
+	height:auto;
+	padding:10px;
+	box-sizing:border-box;
+	font-size:13px;
+}
+
+.casute_servicii2 #lacatus_profesionist2, .casute_servicii2 #preturi_rezonabile2, .casute_servicii2 #servicii_garantate2{
+	background-color:#e5e5ff;
+}
+
+.servicii_icon{
+	height:auto;
+	
+}
+.servicii_icon img{
+	width:60px;
+	padding-top:150%;
+}
+
+#index_despre{
+	display:flex;
+	margin:40px 0px;
+	justify-content:space-between;
+	font-size:14px;
+	flex-wrap:wrap;
+}
+
+#index_despre1 {
+	flex-basis:100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	color:#000033;
+	flex:1;
+}
+
+#index_despre1 div{
+	flex-basis:100%;
+	flex-wrap:wrap;
+	padding-bottom:20px;
+	
+}
+
+#index_despre1 div p{
+	padding:15px 10px;
+}
+#imagine_despre{
+	width:100%;
+}
+
+#imagine_despre img{
+	width:200px;
+}
+
+
+
+/*			servicii			*/
+#pagina_servicii{
+	margin-top:120px;
+	box-sizing:border-box;
+	margin-bottom:30px;
+	padding:0px 20px;
+}
+
+#servicii{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#servicii div{
+	flex-basis:100%;
+	
+}
+
+#servicii_cerc{
+	display:flex;
+	flex-wrap:wrap;
+	height:auto;
+	
+}
+#servicii_cerc div{
+	flex-basis:100%;
+}
+#deblocare_usa{
+	margin-top:20px;
+	width:220px;
+}
+
+#servicii_cerc .servicii_img{
+	width:140px;
+}
+
+#paragraf1, #paragraf3{
+	background-color:#ccccff;
+	padding:10px;
+	font-size:14px;
+}
+#paragraf2, #paragraf4{
+	background-color:#e5e5ff;
+	padding:10px;
+	font-size:14px;
+}
+
+#servicii_continut{
+	color:#000033;
+	text-align:Center;
+}
+#servicii_continut h2{
+	padding-top:15px;
+	padding-bottom:20px;
+	font-size:17px;
+
+}
+#servicii_continut h3{
+	padding-bottom:10px;
+}
+
+
+#servicii_oferite{
+	text-align:left;
+	margin-left:0px;
+	
+}
+#servicii_servicii h3{
+	padding:15px 0px;
+	font-size:20px;
+	background-color:#000033;
+	color:white;
+	margin-left:0px;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+
+#servicii_oferite p{
+	background-color:#ccccff;
+	border-left:2px solid black;
+	margin-bottom:8px;
+	padding:6px 0px 6px 15px;
+	text-align:left;
+	font-size:13px;
+	font-weight:bold;
+	color:#000033;
+}
+
+#text_servicii{
+	border:5px solid #000019;
+	margin:30px 0px;
+	padding:20px;
+	box-sizing:border-box;
+	background-color:#000033;
+	display:block;
+}
+
+#text_servicii p{
+	width:100%;
+	float:left;
+	font-size:14px;
+	text-align:justify;
+	color:#b2b2ff;
+}
+#text_servicii img{
+	width:100%;
+	margin-left:0px;
+}
+
+
+/*			CONTACT			*/
+#pagina_contact{
+	padding:0px 20px;
+	margin-bottom:20px;
+}
+#contact_pagina{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#program{
+	flex-basis:100%;
+	display:flex;
+	padding:0px;
+	flex-wrap:wrap;
+	
+}
+#program1{
+	flex-basis:100%;
+	text-align:center;
+	box-sizing:border-box;
+	background-color:#000019;
+	opacity:0.8;
+	padding:30px 20px;
+}
+
+#program1 h2{
+	padding-bottom:15px;
+}
+.deplasari{
+	color:white;
+}
+
+#program2{
+	padding:0px 30px;
+	margin-top:30px;
+	padding-bottom:20px;
+}
+
+#program2 p{
+	background-color:#000019;
+	opacity:0.7;
+	margin-bottom:10px;
+	padding:10px 10px;
+}
+#program2 h3{
+	padding:20px 10px;
+	background-color:#000019;
+	opacity:0.8;
+}
+
+#program2 h2{
+	font-size:16px;
+	margin-top:20px;
+	padding:20px 10px;
+	background-color:#000019;
+	opacity:0.8;
+}
+
+#imagine_contact{
+	height:120px;
+	margin-bottom:40px;
+}
+#box_contact{
+	width:100%;
+	height:120px;
+}
+
+#box_contact h1{
+	padding-top:40px;
+	font-size:20px;
+}
+
+#footer{
+	font-size:13px;
+	padding:15px 0px;
+}
+}
+
+@media screen  and (min-width: 375px) and (max-width: 467px){
+
+.toggle{
+	display:block;
+	width:100%;
+	float:left;
+
+}
+
+#fa_bar{
+	width:30px;
+}
+
+#nav{
+	margin:0px;
+	padding:0px;
+}
+
+#nav ul li{
+	width:100%;
+	display:block;
+	text-align:center;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	height:0px;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+}
+
+#header nav ul li.open{
+	height:auto;
+}
+
+#nav ul li a{
+	width:100%;
+	display:block;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-top:3px solid black;
+	box-sizing:border-box;
+	font-size:19px;
+	margin:0px;
+	padding:20px 0px;
+}
+
+header{
+	width:100%;
+	height:auto;
+}
+
+#logo{
+	width:78%;
+	float:left;
+	font-size:30px;
+	padding-top:5px;
+	text-align:center;
+}
+#logo img{
+	width:275px;
+}
+#nav ul{
+	width:100%;
+}
+
+nav ul li{
+	display:inline-block;
+	width:100%;
+}
+
+#facebook_icon,#twitter_icon{
+	width:24px;
+	padding-top:10px;
+	padding-right:10px;
+}
+
+#pagina_index, #pagina_servicii, #pagina_contact{
+	margin-top:120px;
+}
+
+#pagina_index{
+	padding:0px 20px;
+}
+#deblocari_usi{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#deblocari{
+	flex:1;
+	flex-basis:100%;
+	height:150px;
+}
+
+#deblocari img{
+	height:150px;
+}
+
+
+#experienta{
+	flex:1;
+	flex-basis:100%;
+	height:280px;
+	margin-left:0px;
+	padding:15px 0px;
+	font-size:13px;
+	margin-top:10px;
+}
+
+#experienta p{
+	width:55%;
+}
+
+#telefon_index{
+	padding-top:80px;
+	font-size:20px;
+}
+
+
+#casute_servicii{
+	width:100%;
+	margin-top:30px;
+	display:flex;
+	flex:1;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	
+	
+}
+
+#casute_servicii>div{
+	flex-basis:100%;
+	border:3px solid #000019;
+	margin-bottom:20px;
+	
+}
+.casute_servicii1{
+	text-align:center;
+	min-width:200px;
+
+}
+
+
+.casute_servicii2{
+	display:flex;
+}
+
+.casute_servicii2>div{
+	height:auto;
+	padding:10px;
+	box-sizing:border-box;
+	font-size:14px;
+}
+
+.casute_servicii2 #lacatus_profesionist2, .casute_servicii2 #preturi_rezonabile2, .casute_servicii2 #servicii_garantate2{
+	background-color:#e5e5ff;
+}
+
+.servicii_icon{
+	height:auto;
+	
+}
+.servicii_icon img{
+	width:60px;
+	padding-top:50%;
+}
+
+#index_despre{
+	display:flex;
+	margin:40px 0px;
+	justify-content:space-between;
+	font-size:14px;
+	flex-wrap:wrap;
+}
+
+#index_despre1 {
+	flex-basis:100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	color:#000033;
+	flex:1;
+}
+
+#index_despre1 div{
+	flex-basis:100%;
+	flex-wrap:wrap;
+	padding-bottom:20px;
+	
+}
+
+#index_despre1 div p{
+	padding:15px 10px;
+}
+#imagine_despre{
+	width:100%;
+	text-align:center;
+}
+
+#imagine_despre img{
+	width:200px;
+}
+
+
+
+/*			servicii			*/
+#pagina_servicii{
+	margin-top:120px;
+	box-sizing:border-box;
+	margin-bottom:30px;
+	padding:0px 20px;
+}
+
+#servicii{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#servicii div{
+	flex-basis:100%;
+	
+}
+
+#servicii_cerc{
+	display:flex;
+	flex-wrap:wrap;
+	height:auto;
+	
+}
+#servicii_cerc div{
+	flex-basis:100%;
+}
+#deblocare_usa{
+	margin-top:20px;
+	width:220px;
+}
+
+#servicii_cerc .servicii_img{
+	width:140px;
+}
+
+#paragraf1, #paragraf3{
+	background-color:#ccccff;
+	padding:10px;
+	font-size:14px;
+}
+#paragraf2, #paragraf4{
+	background-color:#e5e5ff;
+	padding:10px;
+	font-size:14px;
+}
+
+#servicii_continut{
+	color:#000033;
+	text-align:Center;
+}
+#servicii_continut h2{
+	padding-top:15px;
+	padding-bottom:20px;
+	font-size:17px;
+
+}
+#servicii_continut h3{
+	padding-bottom:10px;
+}
+
+
+#servicii_oferite{
+	text-align:left;
+	margin-left:0px;
+	
+}
+#servicii_servicii h3{
+	padding:15px 0px;
+	font-size:20px;
+	background-color:#000033;
+	color:white;
+	margin-left:0px;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+
+#servicii_oferite p{
+	background-color:#ccccff;
+	border-left:2px solid black;
+	margin-bottom:8px;
+	padding:6px 0px 6px 15px;
+	text-align:left;
+	font-size:13px;
+	font-weight:bold;
+	color:#000033;
+}
+
+#text_servicii{
+	border:5px solid #000019;
+	margin:30px 0px;
+	padding:20px;
+	box-sizing:border-box;
+	background-color:#000033;
+	display:block;
+}
+
+#text_servicii p{
+	width:100%;
+	float:left;
+	font-size:14px;
+	text-align:justify;
+	color:#b2b2ff;
+}
+#text_servicii img{
+	width:100%;
+	margin-left:0px;
+}
+
+
+/*			CONTACT			*/
+#pagina_contact{
+	padding:0px 20px;
+	margin-bottom:20px;
+}
+#contact_pagina{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#program{
+	flex-basis:100%;
+	display:flex;
+	padding:0px;
+	flex-wrap:wrap;
+	
+}
+#program1{
+	flex-basis:100%;
+	text-align:center;
+	box-sizing:border-box;
+	background-color:#000019;
+	opacity:0.8;
+	padding:30px 20px;
+}
+
+#program1 h2{
+	padding-bottom:15px;
+}
+.deplasari{
+	color:white;
+}
+
+#program2{
+	padding:0px 30px;
+	margin-top:30px;
+	padding-bottom:20px;
+}
+
+#program2 p{
+	background-color:#000019;
+	opacity:0.7;
+	margin-bottom:10px;
+	padding:10px 10px;
+}
+#program2 h3{
+	padding:20px 10px;
+	background-color:#000019;
+	opacity:0.8;
+}
+
+#program2 h2{
+	font-size:16px;
+	margin-top:20px;
+	padding:20px 10px;
+	background-color:#000019;
+	opacity:0.8;
+}
+
+#imagine_contact{
+	height:150px;
+	margin-bottom:40px;
+}
+#box_contact{
+	width:100%;
+	height:150px;
+}
+
+#box_contact h1{
+	padding-top:60px;
+	font-size:24px;
+}
+
+#footer{
+	font-size:13px;
+	padding:15px 0px;
+}
+}
+
+
+@media screen  and (min-width: 467px) and (max-width: 667px){
+
+.toggle{
+	display:block;
+	width:100%;
+	float:left;
+
+}
+
+#fa_bar{
+	width:30px;
+}
+
+#nav{
+	margin:0px;
+	padding:0px;
+}
+
+#nav ul li{
+	width:100%;
+	display:block;
+	text-align:center;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	height:0px;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+}
+
+#header nav ul li.open{
+	height:auto;
+}
+
+#nav ul li a{
+	width:100%;
+	display:block;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-top:3px solid black;
+	box-sizing:border-box;
+	font-size:19px;
+	margin:0px;
+	padding:20px 0px;
+}
+
+header{
+	width:100%;
+	height:auto;
+}
+
+#logo{
+	width:80%;
+	float:left;
+	font-size:30px;
+	padding-top:5px;
+	text-align:center;
+}
+#logo img{
+	width:275px;
+}
+#nav ul{
+	width:100%;
+}
+
+nav ul li{
+	display:inline-block;
+	width:100%;
+}
+
+#facebook_icon, #twitter_icon{
+	width:24px;
+	padding-top:10px;
+	padding-right:10px;
+}
+
+#pagina_index, #pagina_servicii, #pagina_contact{
+	margin-top:120px;
+}
+
+#pagina_index{
+	padding:0px 20px;
+}
+#deblocari_usi{
+	width:100%;
+	text-align:center;
+	display:flex;
+	justify-content:space-between;
+}
+
+#deblocari{
+flex-basis:70%;
+margin-right:10px;
+}
+
+#deblocari img{
+	width:100%;
+	height:180px;
+}
+
+#experienta{
+	height:180px;
+	width:200px;
+	padding:15px 5px;
+	font-size:10px;
+	margin:0px;
+}
+
+#experienta p{
+	width:55%;
+	font-weight:bold;
+	color:white;
+}
+
+#telefon_index{
+	padding-top:20px;
+	font-size:13px;
+}
+
+
+
+#casute_servicii{
+	width:100%;
+	margin-top:30px;
+	display:flex;
+	flex:1;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	
+	
+}
+
+#casute_servicii>div{
+	flex-basis:100%;
+	border:3px solid #000019;
+	margin-bottom:20px;
+	
+}
+.casute_servicii1{
+	text-align:center;
+	min-width:200px;
+
+}
+
+
+.casute_servicii2{
+	display:flex;
+}
+
+.casute_servicii2>div{
+	height:auto;
+	padding:10px;
+	box-sizing:border-box;
+	font-size:14px;
+}
+
+.casute_servicii2 #lacatus_profesionist2, .casute_servicii2 #preturi_rezonabile2, .casute_servicii2 #servicii_garantate2{
+	background-color:#e5e5ff;
+}
+
+.servicii_icon{
+	height:auto;
+	
+}
+.servicii_icon img{
+	width:60px;
+	padding-top:50%;
+}
+
+#index_despre{
+	display:flex;
+	margin:40px 0px;
+	justify-content:space-between;
+	font-size:14px;
+	flex-wrap:wrap;
+}
+
+#index_despre1 {
+	flex-basis:100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	color:#000033;
+	flex:1;
+}
+
+#index_despre1 div{
+	flex-basis:100%;
+	flex-wrap:wrap;
+	padding-bottom:20px;
+	
+}
+
+#index_despre1 div p{
+	padding:15px 10px;
+}
+#imagine_despre{
+	width:100%;
+	text-align:center;
+}
+
+#imagine_despre img{
+	width:200px;
+}
+
+
+
+/*			servicii			*/
+#pagina_servicii{
+	margin-top:120px;
+	box-sizing:border-box;
+	margin-bottom:30px;
+	padding:0px 20px;
+}
+
+#servicii{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#servicii div{
+	flex-basis:100%;
+	
+}
+
+#servicii_cerc{
+	display:flex;
+	flex-wrap:wrap;
+	height:auto;
+	
+}
+#servicii_cerc div{
+	flex-basis:100%;
+}
+#deblocare_usa{
+	margin-top:20px;
+	width:220px;
+}
+
+#servicii_cerc .servicii_img{
+	width:140px;
+}
+
+#paragraf1, #paragraf3{
+	background-color:#ccccff;
+	padding:10px;
+	font-size:14px;
+}
+#paragraf2, #paragraf4{
+	background-color:#e5e5ff;
+	padding:10px;
+	font-size:14px;
+}
+
+#servicii_continut{
+	color:#000033;
+	text-align:Center;
+}
+#servicii_continut h2{
+	padding-top:15px;
+	padding-bottom:20px;
+	font-size:17px;
+
+}
+#servicii_continut h3{
+	padding-bottom:10px;
+}
+
+
+#servicii_oferite{
+	text-align:left;
+	margin-left:0px;
+	
+}
+#servicii_servicii h3{
+	padding:15px 0px;
+	font-size:20px;
+	background-color:#000033;
+	color:white;
+	margin-left:0px;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+
+#servicii_oferite p{
+	background-color:#ccccff;
+	border-left:2px solid black;
+	margin-bottom:8px;
+	padding:6px 0px 6px 15px;
+	text-align:left;
+	font-size:13px;
+	font-weight:bold;
+	color:#000033;
+}
+
+#text_servicii{
+	border:5px solid #000019;
+	margin:30px 0px;
+	padding:20px;
+	box-sizing:border-box;
+	background-color:#000033;
+	display:block;
+}
+
+#text_servicii p{
+	width:100%;
+	float:left;
+	font-size:14px;
+	text-align:justify;
+	color:#b2b2ff;
+	
+}
+#text_servicii img{
+	width:100%;
+	margin-left:0px;
+	height:300px;
+}
+
+
+/*			CONTACT			*/
+#pagina_contact{
+	padding:0px 20px;
+	margin-bottom:20px;
+}
+#contact_pagina{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	text-align:center;
+}
+
+#program{
+	flex-basis:100%;
+	display:flex;
+	padding:0px;
+	flex-wrap:wrap;
+	
+}
+#program1{
+	flex-basis:100%;
+	text-align:center;
+	box-sizing:border-box;
+	background-color:#000019;
+	opacity:0.8;
+	padding:30px 20px;
+}
+
+#program1 h2{
+	padding-bottom:15px;
+}
+.deplasari{
+	color:white;
+}
+
+#program2{
+	padding:0px 30px;
+	margin-top:30px;
+	padding-bottom:20px;
+}
+
+#program2 p{
+	background-color:#000019;
+	opacity:0.7;
+	margin-bottom:10px;
+	padding:10px 10px;
+}
+#program2 h3{
+	padding:20px 10px;
+	background-color:#000019;
+	opacity:0.8;
+}
+
+#program2 h2{
+	font-size:16px;
+	margin-top:20px;
+	padding:20px 10px;
+	background-color:#000019;
+	opacity:0.8;
+}
+
+#imagine_contact{
+	height:150px;
+	margin-bottom:40px;
+}
+#box_contact{
+	width:100%;
+	height:150px;
+}
+
+#box_contact h1{
+	padding-top:60px;
+	font-size:24px;
+}
+
+#footer{
+	font-size:13px;
+	padding:15px 0px;
+}
+}
+
+@media screen  and (min-width: 667px) and (max-width: 768px){
+	.toggle{
+	display:block;
+	width:100%;
+	float:left;
+
+}
+
+#fa_bar{
+	width:30px;
+}
+
+#nav{
+	margin:0px;
+	padding:0px;
+}
+
+#nav ul li{
+	width:100%;
+	display:block;
+	text-align:center;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	height:0px;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+}
+
+#header nav ul li.open{
+	height:auto;
+}
+
+#nav ul li a{
+	width:100%;
+	display:block;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-top:3px solid black;
+	box-sizing:border-box;
+	font-size:19px;
+	margin:0px;
+	padding:20px 0px;
+}
+
+header{
+	width:100%;
+	height:auto;
+}
+
+#logo{
+	width:80%;
+	float:left;
+	font-size:30px;
+	padding-top:5px;
+	text-align:center;
+}
+#logo img{
+	width:350px;
+}
+#nav ul{
+	width:100%;
+}
+
+nav ul li{
+	display:inline-block;
+	width:100%;
+}
+
+#facebook_icon, #twitter_icon{
+	width:24px;
+	padding-top:10px;
+	padding-right:10px;
+}
+
+#pagina_index, #pagina_servicii, #pagina_contact{
+	margin-top:120px;
+}
+
+#pagina_index{
+	padding:0px 20px;
+}
+#deblocari_usi{
+	width:100%;
+	text-align:center;
+	display:flex;
+	justify-content:space-between;
+}
+
+#deblocari{
+flex-basis:70%;
+margin-right:10px;
+}
+
+#deblocari img{
+	width:100%;
+	height:180px;
+}
+
+#experienta{
+	height:180px;
+	width:250px;
+	padding:15px 5px;
+	font-size:10px;
+	margin:0px;
+}
+
+#experienta p{
+	width:55%;
+	font-weight:bold;
+	color:white;
+}
+
+#telefon_index{
+	padding-top:30px;
+	font-size:13px;
+}
+
+#casute_servicii{
+	width:100%;
+	margin-top:30px;
+	display:flex;
+	flex:1;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+
+#casute_servicii>div{
+	flex-basis:100%;
+	border:3px solid #000019;
+	margin-bottom:20px;
+	
+}
+.casute_servicii1{
+	text-align:center;
+	min-width:200px;
+
+}
+
+
+.casute_servicii2{
+	display:flex;
+}
+
+.casute_servicii2>div{
+	height:auto;
+	padding:10px;
+	box-sizing:border-box;
+	font-size:14px;
+}
+
+.casute_servicii2 #lacatus_profesionist2, .casute_servicii2 #preturi_rezonabile2, .casute_servicii2 #servicii_garantate2{
+	background-color:#e5e5ff;
+}
+
+.servicii_icon{
+	height:auto;
+	
+}
+.servicii_icon img{
+	width:60px;
+	padding-top:20%;
+}
+
+#index_despre{
+	display:flex;
+	margin:40px 0px;
+	justify-content:space-between;
+	font-size:14px;
+	flex-wrap:wrap;
+}
+
+#index_despre1 {
+	flex-basis:100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	color:#000033;
+	flex:1;
+}
+
+#index_despre1 div{
+	flex-basis:100%;
+	flex-wrap:wrap;
+	padding-bottom:20px;
+	
+}
+
+#index_despre1 div p{
+	padding:15px 10px;
+}
+#imagine_despre{
+	width:100%;
+	text-align:center;
+}
+
+#imagine_despre img{
+	width:200px;
+}
+
+/*			servicii			*/
+#pagina_servicii{
+	margin-top:120px;
+	box-sizing:border-box;
+	margin-bottom:30px;
+	padding:0px 20px;
+}
+
+#servicii{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#servicii div{
+	flex-basis:100%;
+	
+}
+
+#servicii_cerc{
+	display:flex;
+	flex-wrap:wrap;
+	height:auto;
+	
+}
+#servicii_cerc div{
+	flex-basis:100%;
+}
+#deblocare_usa{
+	margin-top:20px;
+	width:220px;
+}
+
+#servicii_cerc .servicii_img{
+	width:140px;
+}
+
+#paragraf1, #paragraf3{
+	background-color:#ccccff;
+	padding:10px;
+	font-size:14px;
+}
+#paragraf2, #paragraf4{
+	background-color:#e5e5ff;
+	padding:10px;
+	font-size:14px;
+}
+
+#servicii_continut{
+	color:#000033;
+	text-align:Center;
+}
+#servicii_continut h2{
+	padding-top:15px;
+	padding-bottom:20px;
+	font-size:17px;
+
+}
+#servicii_continut h3{
+	padding-bottom:10px;
+}
+
+
+#servicii_oferite{
+	text-align:left;
+	margin-left:0px;
+	
+}
+#servicii_servicii h3{
+	padding:15px 0px;
+	font-size:20px;
+	background-color:#000033;
+	color:white;
+	margin-left:0px;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+
+#servicii_oferite p{
+	background-color:#ccccff;
+	border-left:2px solid black;
+	margin-bottom:8px;
+	padding:6px 0px 6px 15px;
+	text-align:left;
+	font-size:13px;
+	font-weight:bold;
+	color:#000033;
+}
+
+
+#text_servicii{
+	border:5px solid #000019;
+	margin:30px 0px;
+	padding:20px;
+	box-sizing:border-box;
+	background-color:#000033;
+}
+
+#text_servicii p{
+	width:100%;
+	float:left;
+	font-size:13px;
+	text-align:justify;
+	color:#b2b2ff;
+}
+#text_servicii img{
+	width:250px;
+	margin-left:10px;
+}
+/*			CONTACT			*/
+#pagina_contact{
+	padding:0px 20px;
+	margin-bottom:20px;
+}
+#contact_pagina{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	text-align:center;
+}
+
+#program{
+	flex-basis:100%;
+	display:flex;
+	padding:0px;
+	flex-wrap:wrap;
+	
+}
+#program1{
+	flex-basis:100%;
+	text-align:center;
+	box-sizing:border-box;
+	background-color:#000019;
+	opacity:0.8;
+	padding:30px 20px;
+}
+
+#program1 h2{
+	padding-bottom:15px;
+}
+.deplasari{
+	color:white;
+}
+
+#program2{
+	padding:0px 30px;
+	margin-top:30px;
+	padding-bottom:20px;
+}
+
+#program2 p{
+	background-color:#000019;
+	opacity:0.7;
+	margin-bottom:10px;
+	padding:10px 10px;
+}
+#program2 h3{
+	padding:20px 10px;
+	background-color:#000019;
+	opacity:0.8;
+}
+
+#program2 h2{
+	font-size:16px;
+	margin-top:20px;
+	padding:20px 10px;
+	background-color:#000019;
+	opacity:0.8;
+}
+
+#imagine_contact{
+	height:150px;
+	margin-bottom:40px;
+}
+#box_contact{
+	width:100%;
+	height:150px;
+}
+
+#box_contact h1{
+	padding-top:60px;
+	font-size:24px;
+}
+
+#footer{
+	font-size:13px;
+	padding:15px 0px;
+}
+}
+
+
+@media screen  and (min-width: 768px) and (max-width: 1024px){
+	.toggle{
+	display:block;
+	width:100%;
+	float:left;
+
+}
+
+#fa_bar{
+	width:30px;
+}
+
+#nav{
+	margin:0px;
+	padding:0px;
+}
+
+#nav ul li{
+	width:100%;
+	display:block;
+	text-align:center;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	height:0px;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+}
+
+#header nav ul li.open{
+	height:auto;
+}
+
+#nav ul li a{
+	width:100%;
+	display:block;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-top:3px solid black;
+	box-sizing:border-box;
+	font-size:19px;
+	margin:0px;
+	padding:20px 0px;
+}
+
+header{
+	width:100%;
+	height:auto;
+}
+
+#logo{
+	width:85%;
+	float:left;
+	font-size:30px;
+	padding-top:5px;
+	text-align:center;
+}
+#logo img{
+	width:450px;
+}
+#nav ul{
+	width:100%;
+}
+
+nav ul li{
+	display:inline-block;
+	width:100%;
+}
+
+#facebook_icon, #twitter_icon{
+	width:30px;
+	padding-top:10px;
+	padding-right:10px;
+}
+
+#pagina_index, #pagina_servicii, #pagina_contact{
+	margin-top:120px;
+}
+
+#pagina_index{
+	padding:0px 20px;
+}
+#deblocari_usi{
+	width:100%;
+	text-align:center;
+	display:flex;
+	justify-content:space-between;
+}
+
+#deblocari{
+flex-basis:70%;
+margin-right:10px;
+}
+
+#deblocari img{
+	width:100%;
+	height:220px;
+}
+
+#experienta{
+	height:220px;
+	width:250px;
+	padding:15px 5px;
+	font-size:12px;
+	margin:0px;
+}
+
+#experienta p{
+	width:55%;
+	font-weight:bold;
+	color:white;
+}
+
+#telefon_index{
+	padding-top:30px;
+	font-size:14px;
+}
+
+
+#casute_servicii{
+	width:100%;
+	margin-top:30px;
+	display:flex;
+	flex:1;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+
+#casute_servicii>div{
+	flex-basis:100%;
+	border:3px solid #000019;
+	margin-bottom:20px;
+	
+}
+.casute_servicii1{
+	text-align:center;
+	min-width:200px;
+
+}
+
+
+.casute_servicii2{
+	display:flex;
+}
+
+.casute_servicii2>div{
+	height:auto;
+	padding:10px;
+	box-sizing:border-box;
+	font-size:16px;
+}
+
+.casute_servicii2 #lacatus_profesionist2, .casute_servicii2 #preturi_rezonabile2, .casute_servicii2 #servicii_garantate2{
+	background-color:#e5e5ff;
+}
+
+.servicii_icon{
+	height:auto;
+	
+}
+.servicii_icon img{
+	width:80px;
+	padding-top:20%;
+}
+
+
+#index_despre{
+	display:flex;
+	margin:40px 0px;
+	justify-content:space-between;
+	font-size:14px;
+	flex-wrap:wrap;
+}
+
+#index_despre1 {
+	flex-basis:100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	color:#000033;
+	flex:1;
+}
+
+#index_despre1 div{
+	flex-basis:100%;
+	flex-wrap:wrap;
+	padding-bottom:20px;
+	
+}
+
+#index_despre1 div p{
+	padding:15px 10px;
+}
+#imagine_despre{
+	width:100%;
+	text-align:center;
+}
+
+#imagine_despre img{
+	width:200px;
+}
+
+/*			servicii			*/
+#pagina_servicii{
+	margin-top:120px;
+	box-sizing:border-box;
+	margin-bottom:30px;
+	padding:0px 20px;
+}
+
+#servicii{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#servicii div{
+	flex-basis:100%;
+	
+}
+
+#servicii_cerc{
+	display:flex;
+	flex-wrap:wrap;
+	height:auto;
+	
+}
+#servicii_cerc div{
+	flex-basis:100%;
+}
+#deblocare_usa{
+	margin-top:20px;
+	width:220px;
+}
+
+#servicii_cerc .servicii_img{
+	width:140px;
+}
+
+#paragraf1, #paragraf3{
+	background-color:#ccccff;
+	padding:10px;
+	font-size:14px;
+}
+#paragraf2, #paragraf4{
+	background-color:#e5e5ff;
+	padding:10px;
+	font-size:14px;
+}
+
+#servicii_continut{
+	color:#000033;
+	text-align:Center;
+}
+#servicii_continut h2{
+	padding-top:15px;
+	padding-bottom:20px;
+	font-size:17px;
+
+}
+#servicii_continut h3{
+	padding-bottom:10px;
+}
+
+
+#servicii_oferite{
+	text-align:left;
+	margin-left:0px;
+	
+}
+#servicii_servicii h3{
+	padding:15px 0px;
+	font-size:20px;
+	background-color:#000033;
+	color:white;
+	margin-left:0px;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+
+#servicii_oferite p{
+	background-color:#ccccff;
+	border-left:2px solid black;
+	margin-bottom:8px;
+	padding:6px 0px 6px 15px;
+	text-align:left;
+	font-size:13px;
+	font-weight:bold;
+	color:#000033;
+}
+
+
+
+#text_servicii{
+	border:5px solid #000019;
+	margin:30px 0px;
+	padding:20px;
+	box-sizing:border-box;
+	background-color:#000033;
+	display:flex;
+}
+
+#text_servicii p{
+	flex-basis::60%;
+	float:left;
+	font-size:15px;
+	text-align:justify;
+	color:#b2b2ff;
+}
+#text_servicii img{
+	width:260px;
+	height:200px;
+	margin-left:12px;
+}
+/*			CONTACT			*/
+#pagina_contact{
+	padding:0px 20px;
+	margin-bottom:20px;
+}
+#contact_pagina{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	text-align:center;
+}
+
+#program{
+	flex-basis:100%;
+	display:flex;
+	padding:0px;
+	flex-wrap:wrap;
+	
+}
+#program1{
+	flex-basis:100%;
+	text-align:center;
+	box-sizing:border-box;
+	background-color:#000019;
+	opacity:0.8;
+	padding:30px 20px;
+}
+
+#program1 h2{
+	padding-bottom:15px;
+}
+.deplasari{
+	color:white;
+}
+
+#program2{
+	padding:0px 30px;
+	margin-top:30px;
+	padding-bottom:20px;
+}
+
+#program2 p{
+	background-color:#000019;
+	opacity:0.7;
+	margin-bottom:10px;
+	padding:10px 10px;
+}
+#program2 h3{
+	padding:20px 10px;
+	background-color:#000019;
+	opacity:0.8;
+}
+
+#program2 h2{
+	font-size:16px;
+	margin-top:20px;
+	padding:20px 10px;
+	background-color:#000019;
+	opacity:0.8;
+}
+
+#imagine_contact{
+	height:230px;
+	margin-bottom:40px;
+}
+#box_contact{
+	width:100%;
+	height:230px;
+}
+
+#box_contact h1{
+	padding-top:80px;
+	font-size:38px;
+}
+
+#footer{
+	font-size:14px;
+	padding:15px 0px;
+}
+}
+
+@media screen  and (min-width: 1024px) and (max-width: 1200px){
+
+#pagina_index, #pagina_servicii, #pagina_contact{
+	margin-top:100px;
+}
+
+#pagina_index{
+	padding:0px 50px;
+}
+
+#logo{
+	width:50%;
+}
+#logo img{
+	float:left;
+}
+#facebook_icon, #twitter_icon{
+	width:28px;
+	padding-top:20px;
+	padding-right:10px;
+}
+
+#nav ul{
+	float:left;
+	text-align:right;
+	width:35%;
+}
+#nav ul li a{
+	font-size:19px;
+}
+#nav ul li{
+	width:110px;
+}
+
+#deblocari{
+flex-basis:70%;
+}
+
+#deblocari img{
+	width:100%;
+	height:270px;
+}
+
+#experienta{
+	background-image:url(imagini/bg1.png);
+	height:270px;
+	width:330px;
+	background-size:cover;
+	border:5px solid #162252;
+	box-sizing:border-box;
+	margin-left:20px;
+	background-color:#00004c;
+	padding:15px 5px;
+	font-size:14px;
+}
+
+#experienta p{
+	width:55%;
+	font-weight:bold;
+	color:white;
+}
+
+#telefon_index{
+	padding-top:60px;
+	font-size:21px;
+}
+
+#casute_servicii{
+	width:100%;
+	margin-top:30px;
+	min-width:900px;
+	
+	
+}
+
+#casute_servicii>div{
+	border:3px solid #000019;
+	width:370px;
+	
+}
+.casute_servicii1{
+	text-align:center;
+	width:370px;
+
+}
+
+.casute_servicii1>p{
+	background-color:#000019;
+	color:white;
+	padding:15px 0px;
+	font-weight:bold;
+	font-size:16px;
+}
+
+.casute_servicii2{
+	display:flex;
+}
+
+.casute_servicii2>div{
+	height:400px;
+	padding:10px;
+	box-sizing:border-box;
+	font-size:15px;
+}
+
+.casute_servicii2 #lacatus_profesionist2, .casute_servicii2 #preturi_rezonabile2, .casute_servicii2 #servicii_garantate2{
+	background-color:#e5e5ff;
+}
+
+.servicii_icon{
+	background-color:#000066;
+	
+}
+.servicii_icon img{
+	width:70px;
+	padding-top:80%;
+	
+}
+
+
+
+#index_despre{
+	display:flex;
+	margin:80px 0px;
+	justify-content:space-between;
+	font-size:16px;
+}
+
+#index_despre1 {
+	flex-basis:60%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	color:#000033;
+}
+
+#index_despre1 div{
+	flex-basis:40%;
+	
+}
+
+#index_despre1 div p{
+	border-left:5px solid #000033;
+	padding:15px 10px;
+	background-color:#ccccff;
+}
+
+#imagine_despre img{
+	width:300px;
+}
+
+/*			servicii			*/
+#pagina_servicii{
+	margin-top:150px;
+	box-sizing:border-box;
+	margin-bottom:50px;
+	padding:0px 80px;
+}
+
+#servicii{
+	display:flex;
+	box-sizing:border-box;
+	text-align:center;
+	
+	
+}
+
+#servicii div{
+	flex-basis:33.33%;
+	box-sizing:border-box;
+	text-align:center;
+	
+}
+
+#servicii_cerc{
+	display:flex;
+	flex-wrap:wrap;
+	box-sizing:border-box;
+	text-align:center;
+	height:300px;
+	
+}
+#servicii_cerc div{
+	flex-basis:100%;
+}
+#deblocare_usa{
+	margin-top:40px;
+	width:280px;
+}
+
+#servicii_cerc .servicii_img{
+	width:140px;
+}
+
+#paragraf1, #paragraf3{
+	background-color:#ccccff;
+	padding:10px;
+}
+#paragraf2, #paragraf4{
+	background-color:#e5e5ff;
+	padding:10px;
+}
+
+#servicii_continut{
+	color:#000033;
+	text-align:Center;
+}
+#servicii_continut h2{
+	padding-bottom:20px;
+	font-size:20px;
+
+}
+#servicii_continut h3{
+	padding-bottom:10px;
+}
+#servicii_oferite{
+	text-align:left;
+	margin-left:70px;
+}
+#servicii_servicii h3{
+	padding:15px 0px;
+	font-size:20px;
+	background-color:#000033;
+	color:white;
+	margin-left:70px;
+	margin-bottom:15px;
+}
+
+#servicii_oferite p{
+	background-color:#ccccff;
+	border-left:2px solid black;
+	margin-bottom:8px;
+	padding:6px 0px 6px 15px;
+	text-align:left;
+	font-size:13px;
+	font-weight:bold;
+	color:#000033;
+}
+
+#text_servicii{
+	border:5px solid #000019;
+	margin:30px 0px;
+	padding:20px;
+	box-sizing:border-box;
+	background-color:#000033;
+	display:flex;
+}
+
+#text_servicii p{
+	flex-basis::60%;
+	float:left;
+	font-size:16px;
+	text-align:justify;
+	color:#b2b2ff;
+}
+#text_servicii img{
+	width:260px;
+	height:200px;
+	margin-left:12px;
+}
+
+/*			CONTACT			*/
+#pagina_contact{
+	padding:0px 80px;
+	box-sizing:border-box;
+	margin-bottom:30px;
+	text-align:center;
+}
+#contact_pagina{
+	width:100%;
+	display:flex;
+}
+
+#program{
+	flex-basis:100%;
+	background-color:#000019;
+	display:flex;
+	color:#b2b2ff;
+	padding:30px;
+	box-sizing:border-box;
+	background-image:url(imagini/chei.jpg);
+	background-size:cover;
+	
+}
+#program1{
+	flex-basis:65%;
+	text-align:center;
+	box-sizing:border-box;
+	background-color:#000019;
+	opacity:0.8;
+	padding:30px 45px;
+}
+#program1 h2{
+	padding-bottom:15px;
+}
+.deplasari{
+	color:white;
+}
+
+#program2{
+	padding:0px 30px;
+}
+
+#program2 p{
+	background-color:#000019;
+	opacity:0.7;
+	margin-bottom:10px;
+	padding:10px 10px;
+}
+#program2 h3{
+	padding:20px 10px;
+	background-color:#000019;
+	opacity:0.8;
+}
+
+#program2 h2{
+	font-size:24px;
+	margin-top:20px;
+	padding:20px 10px;
+	background-color:#000019;
+	opacity:0.8;
+}
+
+#imagine_contact{
+	height:320px;
+	background-image:url(imagini/lacat.jpg);
+	background-size:cover;
+	margin-bottom:40px;
+}
+#box_contact{
+	width:100%;
+	height:320px;
+	background-color:#000033;
+	opacity:0.8;
+	color:white;
+}
+
+#box_contact h1{
+	padding-top:140px;
+	font-size:58px;
+}
+	
+	
+	#imagine_contact{
+	height:300px;
+	background-image:url(imagini/lacat.jpg);
+	background-size:cover;
+	margin-bottom:40px;
+}
+#box_contact{
+	width:100%;
+	height:300px;
+	background-color:#000033;
+	opacity:0.8;
+	color:white;
+}
+
+#box_contact h1{
+	padding-top:120px;
+	font-size:48px;
+}
+
+}
+
